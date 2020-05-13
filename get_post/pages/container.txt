@@ -1,0 +1,117 @@
+<link rel="stylesheet" href="styles_css/container_style.css">
+<div class="container content">
+    <div class="row row1">
+        <div class="col-sm-4">
+            <div class="picture" id="urban">
+                <div class="grey">
+                    <img src="pictures/urban.png" alt="#">
+                </div>
+                <span class="name">Свитшот “UrbanStyle”</span>
+                <br>
+                <span class="price">450 грн.</span>
+                <br>
+                <button class="button"><span>выбрать размер</span></button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="picture" id="queen">
+                <div class="grey">
+                    <img src="pictures/queen.jpg" alt="#">
+                </div>
+                <span class="name">Свитшоты “Queen/King”</span>
+                <br>
+                <span class="price">550 грн.</span>
+                <br>
+                <button class="button"><span>выбрать размер</span></button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="picture" id="mood">
+                <div class="grey">
+                    <img src="pictures/mood.png" alt="#">
+                </div>
+                <span class="name">Свитшот “BlackMood”</span>
+                <br>
+                <span class="price">450 грн.</span>
+                <br>
+                <button class="button"><span>выбрать размер</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="row row2">
+        <div class="col-sm-4">
+            <div class="picture" id="balmain">
+                <div class="grey">
+                    <img src="pictures/balmain.png" alt="#">
+                </div>
+                <span class="name">Свитшот “Balmain”</span>
+                <br>
+                <span class="price" id="bal_pr">500 грн.</span>
+                <br>
+                <button class="button" id="bal"><span>выбрать размер</span></button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="picture" id="love_one">
+                <div class="grey">
+                    <img src="pictures/love_one.png" alt="#">
+                </div>
+                <span class="name">Свитшоты “Love/One”</span>
+                <br>
+                <span class="price" id="l_one_pr">600 грн.</span>
+                <br>
+                <button class="button" id="l_one"><span>выбрать размер</span></button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="picture" id="casual">
+                <div class="grey">
+                    <img src="pictures/casual.png" alt="#">
+                </div>
+                <span class="name">Свитшот “CasualStyle”</span>
+                <br>
+                <span class="price" id="cas_pr">400 грн.</span>
+                <br>
+                <button class="button" id="cas"><span>выбрать размер</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="row row3">
+        <div class="col-sm-4">
+            <div class="picture" id="bright_red">
+                <div class="grey">
+                    <img src="pictures/bright_red.png" alt="#">
+                </div>
+                <span class="name">Свитшот “BrightRed”</span>
+                <br>
+                <span class="price" id="br_red_pr">350 грн.</span>
+                <br>
+                <button class="button" id="br_r"><span>выбрать размер</span></button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="picture" id="delicacy">
+                <div class="grey">
+                    <img src="pictures/delicacy.png" alt="#">
+                </div>
+                <span class="name">Свитшот “Delicacy”</span>
+                <br>
+                <span class="price" id="del_pr">450 грн.</span>
+                <br>
+                <button class="button" id="del"><span>выбрать размер</span></button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="picture" id="light">
+                <div class="grey">
+                    <img src="pictures/light.png" alt="#">
+                </div>
+                <span class="name">Свитшот “LightVersion”</span>
+                <br>
+                <span class="price" id="lig_pr">400 грн.</span>
+                <br>
+                <button class="button" id="lig"><span>выбрать размер</span></button>
+            </div>
+        </div>
+    </div>
+</div>

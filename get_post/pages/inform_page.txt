@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="styles_css/inform_style.css">
+<div class="container content">
+    <div class="text">
+        <br>
+        <span class="title">О нас</span><br><br>
+        <span class="text">Добро пожаловать в FashProfShop.<br>
+            У нас Вы найдете одежду, созданную по мотивам шоу<br>
+            “Fashion is my profession”.<br><br>
+            Свитшоты, футблоки, юбки, тренчи, шарфы, сумки, и блокноты<br>
+            с оригинальным дизайном.<br><br>
+            Мы всегда тестируем качество товара на себе. Поэтому Вам<br>
+            остается только наслаждаться его использованием.<br>
+        </span>
+    </div>
+</div>

@@ -1,0 +1,78 @@
+ <link rel="stylesheet" href="styles_css/style.css">
+<div class="main">
+    <div class="banner start">
+        <div class="begin">
+           <img src="pictures/landscape-1441134217-img-7084.jpg">
+           <span class="text">Одежда по мотивам </span><span class="text" id="youtube">youtube </span>
+            <span class="text">шоу</span><br>
+            <span class="text">“Fashion is my profession”</span>
+        </div>
+    </div>
+        <div class="container title">
+            <span class="item" id="items">Товары</span><br><br>
+            <span class="item">Свитшоты, футболки, юбки, тренчи,<br>
+            джинсы, шарфы, сумки, блокноты</span>
+        </div>
+    </div>
+
+<div class="container content">
+    <div class="row">
+        <div class="col-sm-6">
+            <div id="sweetshot">
+                <span class="head">Свитшоты</span>
+                <button class="button"><span>показать все</span></button>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div id="t-short">
+                <span class="head">Футболки</span>
+                <button class="button"><span>показать все</span></button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+            <div class="col-sm-6">
+                <div id="skirt">
+                    <span class="head">Юбки</span>
+                    <button class="button"><span>показать все</span></button>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div id="trench">
+                    <span class="head">Тренчи</span>
+                    <button class="button"><span>показать все</span></button>
+                </div>
+            </div>
+        </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-6">
+            <div id="jeans">
+                <span class="head">Джинсы</span>
+                <button class="button"><span>показать все</span></button>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div id="scarf">
+                <span class="head">Шарфы</span>
+                <button class="button"><span>показать все</span></button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-6">
+            <div id="beg">
+                <span class="head">Сумки</span>
+                <button class="button"><span>показать все</span></button>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div id="notebook">
+                <span class="head">Блокноты</span>
+                <button class="button"><span>показать все</span></button>
+            </div>
+        </div>
+    </div>
+</div>

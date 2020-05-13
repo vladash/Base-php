@@ -1,0 +1,597 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.top .fash span{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.mail img{
+    position: relative;
+    top: 7px;
+}
+
+#black{
+    color: #000000;
+}
+
+#red{
+    color: #D80D0D;
+}
+
+
+.mail{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+@media (max-width: 576px) {
+    .top {
+        flex-direction: column;
+        position: relative;
+    }
+    .mail img{
+        display: none;
+    }
+}
+
+.content .row div{
+    position: relative;
+    text-align: center;
+}
+
+.content .row1 div{
+    top: 10px;
+}
+
+.content .row2 div{
+    top: 45px;
+}
+
+.content .row3 div{
+    top: 75px;
+}
+
+.picture img{
+    width: 350px;
+    height: 430px;
+}
+
+.grey{
+    background: dimgrey;
+    width: 349px;
+    height: 427px;
+}
+
+#queen img{
+    opacity: 80%;
+}
+
+#balmain img{
+    opacity: 80%;
+}
+
+#light img{
+    opacity: 90%;
+}
+
+.name{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    position: relative;
+    top: 30px;
+
+    color: #000000;
+}
+
+.price{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    top: 30px;
+
+    color: #000000;
+}
+
+.content .row2 .name{
+    top: 60px;
+}
+
+.content .row2 .price{
+    top: 60px;
+}
+
+.content .row3 .name{
+    top: 90px;
+}
+
+.content .row3 .price{
+    top: 90px;
+}
+
+button{
+    width: 257px;
+    height: 60px;
+    position: relative;
+    top: 45px;
+
+    background: #D80D0D;
+    border-radius: 50px;
+}
+
+button span{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.button:hover{
+    background: darkred;
+    width: 277px;
+    height: 70px;
+    position: relative;
+    top: 40px;
+}
+
+.content .row2 button{
+    top: 75px;
+}
+
+.content .row3 button{
+    top: 100px;
+}
+
+@media (max-width: 1200px) {
+    .grey{
+        background: dimgrey;
+        width: 292px;
+        height: 372px;
+    }
+    .picture img{
+        width: 292px;
+        height: 372px;
+    }
+}
+
+@media (max-width: 991px) {
+    .grey{
+        background: dimgrey;
+        width: 202px;
+        height: 252px;
+    }
+    .picture img{
+        width: 202px;
+        height: 252px;
+    }
+    .name{
+        font-size: 20px;
+        line-height: 25px;
+        position: relative;
+        top: 20px;
+
+        color: #000000;
+    }
+
+    .price{
+        font-size: 18px;
+        line-height: 25px;
+        position: relative;
+        top: 30px;
+    }
+
+    #bal_pr{
+        position: relative;
+        top: 85px;
+    }
+
+    #br_red_pr{
+        position: relative;
+        top: 115px;
+    }
+    #del_pr{
+        position: relative;
+        top: 115px;
+    }
+    button{
+        width: 197px;
+        height: 50px;
+        position: relative;
+        top: 45px;
+
+        background: #D80D0D;
+        border-radius: 25px;
+    }
+
+    button span{
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+
+        color: #FFFFFF;
+    }
+    .button:hover{
+        background: darkred;
+        width: 207px;
+        height: 60px;
+        position: relative;
+        top: 40px;
+    }
+    #bal{
+        position: relative;
+        top: 100px;
+    }
+    #br_r{
+        position: relative;
+        top: 125px;
+    }
+    #del{
+        position: relative;
+        top: 125px;
+    }
+}
+
+@media (max-width: 576px) {
+    .grey{
+        background: dimgrey;
+        width: 332px;
+        height: 402px;
+        position: relative;
+        left: 15px;
+    }
+    .picture img{
+        width: 332px;
+        height: 402px;
+        position: relative;
+    }
+    #queen{
+        top: 85px;
+    }
+    #mood{
+        top: 160px;
+    }
+    #balmain{
+        top: 165px;
+    }
+    #bal_pr{
+        top: 70px;
+    }
+    #bal{
+        top: 85px;
+    }
+    #love_one{
+        top: 250px;
+    }
+    #l_one_pr{
+        top: 70px;
+    }
+    #l_one{
+        top: 85px;
+    }
+    #casual{
+        top: 330px;
+    }
+    #cas_pr{
+        top: 70px;
+    }
+    #cas{
+        top: 80px;
+    }
+    #bright_red{
+        top: 345px;
+    }
+    #br_red_pr{
+        top: 100px;
+    }
+    #br_r{
+        top: 110px;
+    }
+    #delicacy{
+        top: 420px;
+    }
+    #del_pr{
+        top: 100px;
+    }
+    #del{
+        top: 110px;
+    }
+    #light{
+        top: 500px;
+    }
+    #lig_pr{
+        top: 100px;
+    }
+    #lig{
+        top: 110px;
+    }
+    button{
+        width: 332px;
+        height: 50px;
+    }
+
+    .button:hover{
+        background: darkred;
+        width: 342px;
+        height: 60px;
+        position: relative;
+        top: 40px;
+    }
+}
+@media (max-width: 380px) {
+    .grey{
+        background: dimgrey;
+        width: 327px;
+        height: 402px;
+        position: relative;
+        left: 0px;
+    }
+    .picture img{
+        width: 327px;
+        height: 402px;
+        position: relative;
+    }
+    button{
+        width: 327px;
+        height: 50px;
+    }
+
+    .button:hover{
+        background: darkred;
+        width: 337px;
+        height: 60px;
+        position: relative;
+        top: 40px;
+    }
+
+}
+
+@media(max-width: 360px){
+    .grey{
+        width: 312px;
+        height: 387px;
+        position: relative;
+        left: 0px;
+    }
+    .picture img{
+        width: 312px;
+        height: 387px;
+        position: relative;
+    }
+    button{
+        width: 312px;
+        height: 50px;
+    }
+
+    .button:hover{
+        width: 322px;
+        height: 60px;
+        position: relative;
+        top: 40px;
+    }
+
+}
+
+@media(max-width: 330px){
+    .grey{
+        width: 277px;
+        height: 342px;
+        position: relative;
+        left:0px;
+
+    }
+    .picture img{
+        width: 277px;
+        height: 342px;
+        position: relative;
+    }
+    button{
+        width: 277px;
+        height: 50px;
+    }
+
+    .button:hover{
+        width: 287px;
+        height: 60px;
+        position: relative;
+        top: 40px;
+    }
+
+}
+
+.footer {
+    background: #1E0019;
+    position: relative;
+    top: 370px;
+    height: 60px;
+}
+
+.text_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ftext {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    position: relative;
+    top: 10px;
+
+    color: #FFFFFF;
+}
+
+.text_footer img {
+    width: 70px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+}
+
+#shop {
+    font-size: 26px;
+    color: #D80D0D;
+    font-weight: bold;
+}
+
+#fash {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.pay {
+    position: relative;
+    text-align: center;
+    height: 100px;
+    top: 380px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.second {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.made {
+    position: relative;
+    top: 350px;
+    height: 60px;
+    background: #1E0019;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.made span {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #C4C4C4;
+}
+
+@media (max-width: 991px) {
+    .ftext {
+        font-size: 14px;
+    }
+    #shop {
+        font-size: 18px;
+    }
+    #fash {
+        font-size: 18px;
+    }
+    .first {
+        font-size: 18px;
+    }
+    .second {
+        font-size: 18px;
+    }
+    .made span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        top: 750px;
+        height: 55px;
+    }
+    .ftext {
+        display: none;
+    }
+
+    #fash {
+        display: block;
+        font-size: 18px;
+        left: 115px;
+    }
+    #shop{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .pay {
+        position: relative;
+        top: 760px;
+        text-align: center;
+    }
+
+    .first {
+        font-size: 14px;
+    }
+
+    .second {
+        font-size: 14px;
+    }
+
+    .made {
+        top: 750px;
+    }
+
+    .made span {
+        font-size: 14px;
+    }
+
+    .text_footer img {
+        display: none;
+    }
+}
+
+@media (max-width: 330px) {
+    #fash {
+        display: block;
+        font-size: 18px;
+        left: 75px;
+    }
+
+    .first {
+        font-size: 12px;
+    }
+
+    .second {
+        font-size: 12px;
+    }
+}
